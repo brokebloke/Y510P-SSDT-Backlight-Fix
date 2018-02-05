@@ -3,7 +3,7 @@ This is my version of a backlight fix using AppleBacklight and AppleBacklightInj
 This also works with Lenovo Y510P devices pre 10.12.4 with included IntelBacklight.kext parameters (although unnecessary). Keys use the Voodoo PS2 kext file and wont work unless edited specifically.
 
 # Install
-Simply copy and place the SSDT-HACK.aml file to EFI/CLOVER/ACPI/patched
+Simply copy and place the SSDT-HACK.aml file to EFI/CLOVER/ACPI/patched  
 Copy the modified AppleBacklightInjector.kext by using the following command
 
 **sudo cp -R AppleBacklightInjector.kext /Library/Extensions/**
